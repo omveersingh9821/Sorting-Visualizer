@@ -1,0 +1,38 @@
+.mySlides {
+    display: none;
+}
+
+body {
+    background-color: rgb(2, 2, 2);
+    font-family: Verdana, sans-serif;
+}
+
+
+.data-container {
+    width: 600px;
+    height: 384px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.bar {
+    width: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(231, 248, 255);
+    transition: 0.2s all ease;
+    color: rgb(0, 0, 0);
+}
+
+.bar__id {
+    position: absolute;
+    top: -24px;
+    width: 100%;
+    text-align: center;
+}
+
+#btn{
+    position: relative;
+    left: 35%;
+}
